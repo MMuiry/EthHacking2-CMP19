@@ -1,0 +1,1 @@
+<?php	if(preg_match("[1=1|2=2|Select|Union|2 =2|3=3|'a'='a']", $username)){ echo '<script language="javascript">'; echo 'alert ("Bad hacker.We are filtering input because of abuse!");'; echo 'window.location.href="index.php";'; echo '</script>'; die(); }  ?>
